@@ -1,0 +1,39 @@
+Python web api project.
+
+Goal: build a command-line python app to fetch wether 
+and crypto prices using web APIs. 
+
+Setup:
+We will make a project folder named python-api-project
+
+we intialized git on the project.
+git init
+
+we created virtual env and activated it.
+python -m venv venv
+venv\Scripts\activate
+
+we installed requests and python-dotenv.
+command - pip install requests python-dotenv
+
+we created a .gitignore file and filled it with
+
+venv/
+.env
+__pycache__/
+
+
+WE created the .env.example file
+
+WEATHER_API_KEY=your_openweathermap_api_key
+
+
+git terminology
+
+Q: What is a commit?A: A commit is like saving a snapshot of your code at a certain point. You also write a short message explaining what you changed.
+
+Q: What is a remote?A: A remote is an online version of your project (hosted on GitHub).
+
+Q: What is origin?A: origin is the default nickname Git gives to the remote GitHub repository.
+
+Q: What’s the difference between local and remote repo?A: Local is the project folder on your computer. Remote is the version stored on GitHub.
